@@ -41,7 +41,13 @@ npm install
 ## Ambiente Android Studio
 
 <p align="justify">
-  CALMA, não se assuste! Você raramente precisará interagir diretamente com o Android Studio. No entanto, deverá instalá-lo pois as ferramentas necessárias para que o React native compile seu APK/AAB estão contidas nele! Após realizar esta instalação, 
+  CALMA, não se assuste! Você raramente precisará interagir diretamente com o Android Studio. No entanto, deverá instalá-lo pois as ferramentas necessárias para que o React native compile seu APK/AAB estão contidas nele! Para baixar o Android Studio, clique aqui: <a href="https://developer.android.com/r/studio-ui/download-stable">Download Android Studio</a>.
+</p>
+
+### OBSERVAÇÃO:
+
+<p align="justify">
+  Mesmo que você já possua o Android Studio instalado, recomendo fortemente desinstalá-lo e instalar a versão mais recente pois alguns recursos podem não funcionar como o esperado caso você utilize uma versão muito antiga.
 </p>
 
 ## Instalando o Gradle v6.9
@@ -60,17 +66,21 @@ npm install
   Pode ser do seu interesse conseguir visualizar seu aplicativo em tempo real (visualmente falando). Para isso, execute o comando npm run web e veja as suas atualizações no código sendo refletidas automaticamente no navegador.
 </p>
 
+```
+npm run web
+```
+
 ## Gerando o build debug (Debug)
 
-<p align="justify">
-  Para gerar o build, digite o comando npm run build:release e aguarde.
-</p>
+```
+npm run build:debug
+```
 
 ## Gerando o build release assinado (Release)
 
-<p align="justify">
-  Para gerar o build, digite o comando npm run build:release e aguarde.
-</p>
+```
+npm run build:release
+```
 
 ## Informações do my-keystore.keystore
 
