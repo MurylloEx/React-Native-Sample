@@ -1,6 +1,8 @@
 {
   "main": "index.js",
   "scripts": {
+    "build:debug": "cd android && gradle assembleDebug",
+    "build:release": "cd android && gradle assembleRelease",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
