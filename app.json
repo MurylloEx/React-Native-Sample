@@ -6,7 +6,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "description": ""
+    "description": "My first app!",
+    "android": {
+      "package": "br.com.muryllo.firstappexpo"
+    }
   },
   "name": "FirstAppExpo"
 }
